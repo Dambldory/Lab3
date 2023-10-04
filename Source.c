@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
+#include<stdlib.h>
 #define d 2.54
 #define d1 2.7076
 #define g 6.67e-11
@@ -16,16 +17,16 @@ void main()
 	printf("Сумма этих чисел: %d \nРазность этих чисел: %d\nПроизведение чисел: %d\n", num1 + num, num1 - num, num1 * num);
 	printf("Частное чисел: %.3f\nОстаток деления: %d\n", (float)num1 / num,num1%num);
 	*/
-	int dym;
+	/*int dym;
 	float result, result1;
 	puts("Введите значение:\n");
 	scanf("%d", &dym);
 	result = d * dym;
 	result1 = d1 * dym;
 	printf("%d дюймов - это %.1f сантиметров\n", dym, result);
-	printf("%d старолитовских дюймов - это %.1f сантиметров", dym, result1);
+	printf("%d старолитовских дюймов - это %.1f сантиметров", dym, result1);*/
 	
-	/*int a, b;
+	int a, b;
 	puts("Введите число");
 	scanf("%d\n %d", &a, &b);
 	printf("___________________\n");
@@ -34,7 +35,8 @@ void main()
 	printf("|%2d*%-2d|%2d+%-2d|%2d-%-2d|\n", a, b, a, b, a, b);
 	printf("-------------------\n");
 	printf("|%3d  |%3d  |%3d  |\n", a * b, a + b, a - b);
-	printf("-------------------\n");*/
+	printf("-------------------\n");
+	system("pause");
 	/*int a, b, c;
 	puts("Введите массу первого тела (в кг):");
 	scanf("%d", &a);
